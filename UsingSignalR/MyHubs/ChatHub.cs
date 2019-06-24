@@ -7,6 +7,7 @@ namespace UsingSignalR.MyHubs
     public class ChatHub : Hub
     {
         //تمام متد های این کلاس از سمت کلاینت قابل صدا زدن می باشند
+        //****************
         public async Task SendMessage(string user, string message)
         {
             //All همه کانکشن های متصل به سرور
